@@ -1,0 +1,7 @@
+import{N as l,l as s}from"./index.es16-90aad98d.js";import{j as d}from"./jsx-runtime-1a9d9a93.js";import{c}from"./clsx-0839fdbe.js";import"./index.es31-95f1013f.js";import"./index.es13-751bc762.js";import"./index-8b3efc3f.js";import"./_commonjsHelpers-de833af9.js";const t=({className:r,variant:o="dark",...a})=>d.jsx(l,{className:c("zep-h-fit","zep-whitespace-nowrap","enabled:hover:zep-underline","enabled:hover:zep-font-500","zep-cursor-pointer","disabled:zep-opacity-disabled",{"zep-text-typography-primary-default enabled:hover:zep-text-typography-primary-hover enabled:active:zep-text-typography-primary-active":o==="dark","zep-text-typography-light-100 enabled:hover:zep-text-typography-light-100 enabled:active:zep-text-neutral-light-active":o==="light","zep-underline":a.mode===s.Inline},r),...a});try{t.displayName="Link",t.__docgenInfo={description:"",displayName:"Link",props:{}}}catch{}const x={title:"Components/Link",component:t,tags:["autodocs"],argTypes:{}},e={args:{label:"Link",href:"https://www.google.com",mode:s.Inline}};var p,n,i;e.parameters={...e.parameters,docs:{...(p=e.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  args: {
+    label: 'Link',
+    href: 'https://www.google.com',
+    mode: LinkMode.Inline
+  } as LinkProps
+}`,...(i=(n=e.parameters)==null?void 0:n.docs)==null?void 0:i.source}}};const b=["Default"];export{e as Default,b as __namedExportsOrder,x as default};
