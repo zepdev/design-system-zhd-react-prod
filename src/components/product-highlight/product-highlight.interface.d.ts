@@ -1,18 +1,23 @@
-import { ButtonHTMLAttributes, MouseEvent } from 'react';
+import { BlocksContent } from '@strapi/blocks-react-renderer';
+import { MouseEvent } from 'react';
+import { FunctionalIconNames } from '../../../node_modules/@zepdev/design-system-component-library-react';
+import { GlobalVariants } from '../../interfaces/global-variants';
+import { HeaderLongProps } from '../header-long';
 import { ZsdButtonVariant } from '../zsd-button';
 
-export type ProductItem = {
-    title?: string;
-    content: string;
-};
-export interface ProductHighLightProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ProductHighLightProps extends Partial<Omit<HeaderLongProps, 'variant'>> {
     imageAlignment?: 'left' | 'right';
-    productImageSrc: string;
+    imageSrc: string;
     imageAlt: string;
-    productDetails: ProductItem[];
-    buttonText: string;
-    buttonTitle?: string;
-    buttonVariant?: ZsdButtonVariant;
+    productDetails: BlocksContent[];
+    buttonText?: string;
+    buttonVariant?: ZsdButtonVariant | 'link';
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
+    variant?: GlobalVariants;
+    id?: string;
+    buttonUrl?: string;
+    buttonType?: 'download' | 'default';
+    buttonIcon?: FunctionalIconNames;
+    buttonIconPosition?: 'left' | 'right';
 }
 //# sourceMappingURL=product-highlight.interface.d.ts.map
