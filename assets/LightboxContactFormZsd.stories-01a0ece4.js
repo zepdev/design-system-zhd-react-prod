@@ -1,0 +1,18 @@
+import{j as n}from"./jsx-runtime-1a9d9a93.js";import{L as d}from"./global-variants-4c710595.js";import{c as r}from"./contact-form-locales-2d600896.js";import{C as h,c as f}from"./ContactFormZsd-442ac6f0.js";import{M as b}from"./ModalComponent-d6bb7ead.js";import"./index-8b3efc3f.js";import"./_commonjsHelpers-de833af9.js";import"./TextArea-c1f479f5.js";import"./index.es13-903b34be.js";import"./clsx-0839fdbe.js";import"./focus-d7245c50.js";import"./index-9d475cdf.js";import"./getDataLayer-2559cd39.js";import"./HeaderLongComponent-2a7c9c4a.js";import"./index.es16-2e85d74f.js";import"./index.es32-95f1013f.js";import"./index.es17-40e95622.js";import"./RichText-26bc2e7d.js";import"./getUrlWithTrailingSlash-1f1feb13.js";import"./ZsdButton-24da46db.js";import"./index.es36-796b080a.js";import"./index-ff2c9236.js";import"./tw-merge-1166cefb.js";import"./MultiLinkList-4406b658.js";import"./LinkListItem-ae3405ba.js";import"./index.es2-ee7adc7b.js";import"./index.es33-fbb642fb.js";import"./Layout-fc6ef0e0.js";import"./Radio-eac0a08d.js";const i=({onSubmit:t,locale:e,isOpen:c,setIsOpen:u,loading:y,contactArea:l,contactList:o,privacyPolicyUrl:g})=>n.jsx(b,{isOpen:c,label:r[e].close,onClose:()=>u(!1),children:n.jsx(h,{onSubmit:t,locale:e,headline:l?`${r[e].lightboxHeadline} ${l}`:r[e].lightboxHeadlineFallback,tagline:r[e].lightboxTagline,linkLists:o&&(o==null?void 0:o.length)>0?o:[{headline:f[e].linkListGermany,links:[{label:"+49 7541 202 - 0",icon:"phone",href:"tel:+4975412020"}]}],loading:y,privacyPolicyUrl:g})});try{i.displayName="LightboxContactFormZsd",i.__docgenInfo={description:"",displayName:"LightboxContactFormZsd",props:{onSubmit:{defaultValue:null,description:"",name:"onSubmit",required:!0,type:{name:"(data: unknown) => void"}},locale:{defaultValue:null,description:"",name:"locale",required:!0,type:{name:"enum",value:[{value:'"en"'},{value:'"de"'},{value:'"fr"'},{value:'"en-GB"'},{value:'"it"'},{value:'"en-IN"'},{value:'"en-US"'}]}},isOpen:{defaultValue:null,description:"",name:"isOpen",required:!0,type:{name:"boolean"}},setIsOpen:{defaultValue:null,description:"",name:"setIsOpen",required:!0,type:{name:"(x: boolean) => void"}},loading:{defaultValue:null,description:"",name:"loading",required:!1,type:{name:"boolean"}},contactArea:{defaultValue:null,description:"",name:"contactArea",required:!1,type:{name:"string"}},contactList:{defaultValue:null,description:"",name:"contactList",required:!1,type:{name:"LinkListItemProps[]"}},privacyPolicyUrl:{defaultValue:null,description:"",name:"privacyPolicyUrl",required:!0,type:{name:"string"}}}}}catch{}const J={title:"Patterns/LightboxContactFormZsd",component:i,tags:["autodocs"],argTypes:{locale:{control:{type:"radio",options:Object.keys(d)}}}},a={decorators:[t=>n.jsx("div",{className:"zep-h-[800px]",children:n.jsx(t,{})})],args:{locale:d.EN,isOpen:!0,privacyPolicyUrl:"https://www.google.com",contactList:[{headline:"Germany",links:[{label:"0800 5892787",icon:"phone",href:"tel:0800-5892787"}]}]}};var s,p,m;a.parameters={...a.parameters,docs:{...(s=a.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  decorators: [Story => <div className="zep-h-[800px]">
+        <Story />
+      </div>],
+  args: {
+    locale: LocaleVariants.EN,
+    isOpen: true,
+    privacyPolicyUrl: 'https://www.google.com',
+    contactList: [{
+      headline: 'Germany',
+      links: [{
+        label: '0800 5892787',
+        icon: 'phone',
+        href: 'tel:0800-5892787'
+      }]
+    }]
+  } as LightboxContactFormZsdProps
+}`,...(m=(p=a.parameters)==null?void 0:p.docs)==null?void 0:m.source}}};const K=["Default"];export{a as Default,K as __namedExportsOrder,J as default};
